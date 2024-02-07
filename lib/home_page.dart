@@ -61,6 +61,22 @@ class HomePage extends StatelessWidget {
                   }),
                 ),
               ),
+              const SizedBox(
+                height: 24,
+              ),
+              const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Trending',
+                    style: TextStyle(fontSize: 20),
+                  ),
+                  Text(
+                    'See All',
+                    style: TextStyle(fontSize: 12, color: Colors.blue),
+                  ),
+                ],
+              )
             ],
           ),
         ));
